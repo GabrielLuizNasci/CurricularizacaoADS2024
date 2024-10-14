@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CurricularizacaoADS2024.Models
 {
+    [Table("Parceiros")]
     public class Parceiro
     {
         [Key]
