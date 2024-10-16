@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FEMA\\LogicaDeProgramacao\\CurricularizacaoADS2024\\CurricularizacaoADS2024.csproj": {}
+    "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj": {}
   },
   "projects": {
-    "D:\\FEMA\\LogicaDeProgramacao\\CurricularizacaoADS2024\\CurricularizacaoADS2024.csproj": {
+    "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FEMA\\LogicaDeProgramacao\\CurricularizacaoADS2024\\CurricularizacaoADS2024.csproj",
+        "projectUniqueName": "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj",
         "projectName": "CurricularizacaoADS2024",
-        "projectPath": "D:\\FEMA\\LogicaDeProgramacao\\CurricularizacaoADS2024\\CurricularizacaoADS2024.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "D:\\FEMA\\LogicaDeProgramacao\\CurricularizacaoADS2024\\obj\\",
+        "projectPath": "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj",
+        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+        "outputPath": "C:\\CasaDasCriancas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

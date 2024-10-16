@@ -31,7 +31,7 @@ namespace CurricularizacaoADS2024.Models
 
         [Required]
         [StringLength(40)]
-        [Display(Name = "E-mail: ")]
+        [Display(Name = "Endereco: ")]
         public string Endereco { get; set; }
     }
 }
