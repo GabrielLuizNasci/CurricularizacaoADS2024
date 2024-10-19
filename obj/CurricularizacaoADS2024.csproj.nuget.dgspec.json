@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj": {}
+    "C:\\CASA-1\\CurricularizacaoADS2024.csproj": {}
   },
   "projects": {
-    "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj": {
+    "C:\\CASA-1\\CurricularizacaoADS2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj",
+        "projectUniqueName": "C:\\CASA-1\\CurricularizacaoADS2024.csproj",
         "projectName": "CurricularizacaoADS2024",
-        "projectPath": "C:\\CasaDasCriancas\\CurricularizacaoADS2024.csproj",
+        "projectPath": "C:\\CASA-1\\CurricularizacaoADS2024.csproj",
         "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\CasaDasCriancas\\obj\\",
+        "outputPath": "C:\\CASA-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
