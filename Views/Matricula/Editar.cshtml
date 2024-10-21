@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Editar";
+}
+<div class="text-center">
+
+    <h1>Editar Aluno pela Matricula</h1>
+
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Nome do Aluno</label>
+        <input type="text" class="form-control" id="nome" aria-describedby="nome" placeholder="Nome">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Turma</label>
+        <input type="text" class="form-control" id="turma" placeholder="Turma">
+    </div>
+    <button type="submit" class="btn btn-success">Salvar</button>
+    <a class="btn btn-danger" asp-controller="Matricula" asp-action="Index" role="button">Voltar</a>
+</form>
+

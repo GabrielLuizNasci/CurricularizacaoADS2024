@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Matriculas";
+}
+<div class="text-center">
+
+    <h1>Matriculas</h1>
+
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Matricula</th>
+                <th scope="col">Aluno</th>
+                <th scope="col">Turma</th>
+                <th scope="col">R.A</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Marcel</td>
+                <td>Otto</td>
+                <td>mdo</td>
+                <td>
+                    <div class="d-grid gap-2 d-md-block">
+                        <a role="button" class="btn btn-success" asp-controller="Matricula" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Matricula" asp-action="ApagarConfirmacao">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Maria</td>
+                <td>Thornton</td>
+                <td>fat</td>
+                <td>
+                    <div class="d-grid gap-2 d-md-block">
+                        <a role="button" class="btn btn-success" asp-controller="Matricula" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Matricula" asp-action="ApagarConfirmacao">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Joao</td>
+                <td>twitter</td>
+                <td>Thornton</td>
+                <td>
+                    <div class="d-grid gap-2 d-md-block">
+                        <a role="button" class="btn btn-success" asp-controller="Matricula" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Matricula" asp-action="ApagarConfirmacao">Apagar</a>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+ 
+
+</div>
+
