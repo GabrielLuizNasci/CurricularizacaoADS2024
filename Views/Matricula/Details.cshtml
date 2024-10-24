@@ -1,10 +1,11 @@
 ﻿@model CurricularizacaoADS2024.Models.Matricula
 
 @{
-    ViewData["Title"] = "Detalhes";
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Detalhes</h1>
+<h1>Details</h1>
 
 <div>
     <h4>Matricula</h4>
@@ -23,14 +24,14 @@
             @Html.DisplayFor(model => model.DataMatricula)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Aluno)
+            @Html.DisplayNameFor(model => model.aluno)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Aluno.Endereco)
+            @Html.DisplayFor(model => model.aluno.Endereco)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
-    <a asp-action="Index">Voltar</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>

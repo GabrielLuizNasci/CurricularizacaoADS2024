@@ -21,7 +21,7 @@ namespace CurricularizacaoADS2024.Controllers
         // GET: Matricula
         public async Task<IActionResult> Index()
         {
-            var contexto = _context.Matriculas.Include(m => m.Aluno);
+            var contexto = _context.Matriculas.Include(m => m.aluno);
             return View(await contexto.ToListAsync());
         }
 
@@ -34,7 +34,7 @@ namespace CurricularizacaoADS2024.Controllers
             }
 
             var matricula = await _context.Matriculas
-                .Include(m => m.Aluno)
+                .Include(m => m.aluno)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (matricula == null)
             {
@@ -47,7 +47,7 @@ namespace CurricularizacaoADS2024.Controllers
         // GET: Matricula/Create
         public IActionResult Create()
         {
-            ViewData["AlunoId"] = new SelectList(_context.Alunos, "Id", "Endereco");
+            ViewData["alunoID"] = new SelectList(_context.Alunos, "Id", "Nome");
             return View();
         }
 
@@ -56,7 +56,7 @@ namespace CurricularizacaoADS2024.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,AlunoId,Curso,DataMatricula")] Matricula matricula)
+        public async Task<IActionResult> Create([Bind("Id,Curso,DataMatricula,alunoID")] Matricula matricula)
         {
             if (ModelState.IsValid)
             {
@@ -64,7 +64,7 @@ namespace CurricularizacaoADS2024.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AlunoId"] = new SelectList(_context.Alunos, "Id", "Endereco", matricula.AlunoId);
+            ViewData["alunoID"] = new SelectList(_context.Alunos, "Id", "Nome", matricula.alunoID);
             return View(matricula);
         }
 
@@ -81,7 +81,7 @@ namespace CurricularizacaoADS2024.Controllers
             {
                 return NotFound();
             }
-            ViewData["AlunoId"] = new SelectList(_context.Alunos, "Id", "Endereco", matricula.AlunoId);
+            ViewData["alunoID"] = new SelectList(_context.Alunos, "Id", "Nome", matricula.alunoID);
             return View(matricula);
         }
 
@@ -90,7 +90,7 @@ namespace CurricularizacaoADS2024.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,AlunoId,Curso,DataMatricula")] Matricula matricula)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Curso,DataMatricula,alunoID")] Matricula matricula)
         {
             if (id != matricula.Id)
             {
@@ -117,7 +117,7 @@ namespace CurricularizacaoADS2024.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AlunoId"] = new SelectList(_context.Alunos, "Id", "Endereco", matricula.AlunoId);
+            ViewData["alunoID"] = new SelectList(_context.Alunos, "Id", "Nome", matricula.alunoID);
             return View(matricula);
         }
 
@@ -130,7 +130,7 @@ namespace CurricularizacaoADS2024.Controllers
             }
 
             var matricula = await _context.Matriculas
-                .Include(m => m.Aluno)
+                .Include(m => m.aluno)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (matricula == null)
             {

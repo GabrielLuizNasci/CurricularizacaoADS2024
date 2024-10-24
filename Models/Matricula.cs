@@ -12,10 +12,6 @@ namespace CurricularizacaoADS2024.Models
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "Aluno ID: ")]
-        public int AlunoId { get; set; }
-
-        [Required]
         [Display(Name = "Curso: ")]
         public string Curso { get; set; }
 
@@ -23,8 +19,10 @@ namespace CurricularizacaoADS2024.Models
         [Display(Name = "Data de Matricula: ")]
         public DateTime DataMatricula { get; set; }
 
-    
-        [ForeignKey("AlunoId")]
-        public Aluno Aluno { get; set; }
+        [Display(Name = "Aluno: ")]
+        [StringLength(35)]
+        public Aluno aluno { get; set; }
+        [Display(Name = "Aluno: ")]
+        public int alunoID { get; set; }
     }
 }
