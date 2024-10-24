@@ -1,0 +1,68 @@
+﻿@model CurricularizacaoADS2024.Models.Aluno
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Adicionar Aluno</h1>
+
+<h4>Aluno</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nascimento" class="control-label"></label>
+                <input asp-for="Nascimento" class="form-control" />
+                <span asp-validation-for="Nascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Endereco" class="control-label"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Endereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CPF" class="control-label"></label>
+                <input asp-for="CPF" class="form-control" />
+                <span asp-validation-for="CPF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RG" class="control-label"></label>
+                <input asp-for="RG" class="form-control" />
+                <span asp-validation-for="RG" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sexo"></label>
+                @Html.DropDownList("Sexo", new SelectList(new List<SelectListItem>
+                {
+                new SelectListItem { Value = "1", Text = "Masculino" },
+                new SelectListItem { Value = "2", Text = "Feminino" },
+                new SelectListItem { Value = "3", Text = "Outro" }
+                }, "Value", "Text"), "Selecione o Sexo", new { @class = "form-control" })
+                <span asp-validation-for="Sexo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

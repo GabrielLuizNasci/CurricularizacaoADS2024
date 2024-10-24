@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CurricularizacaoADS2024.Models
 {
-    [Table("Professores")]
+    [Table("Alunos")]
     public class Aluno
     {
         [Key]
@@ -41,5 +41,20 @@ namespace CurricularizacaoADS2024.Models
         [Required]
         [Display(Name = "Sexo: ")]
         public int Sexo { get; set; }
+
+        [NotMapped] 
+        public string SexoFormatado
+        {
+            get
+            {
+                return Sexo switch
+                {
+                    1 => "Masculino",
+                    2 => "Feminino",
+                    3 => "Outro",
+                    _ => "Não Especificado"
+                };
+            }
+        }
     }
 }
