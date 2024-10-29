@@ -17,83 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CurricularizacaoADS2024
 build_property.RootNamespace = CurricularizacaoADS2024
-build_property.ProjectDir = C:\Users\gagag\Downloads\curricularizacao 1.0\
+build_property.ProjectDir = D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gagag\Downloads\curricularizacao 1.0
+build_property.MSBuildProjectDirectory = D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Admin/Index.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Alunos/Create.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Alunos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Alunos/Delete.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Alunos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Alunos/Details.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Alunos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Alunos/Edit.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Alunos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Alunos/Index.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Alunos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Home/Index.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Home/Privacy.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Matricula/Create.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Matricula/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Matricula/Delete.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Matricula/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Matricula/Details.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Matricula/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Matricula/Edit.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Matricula/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Matricula/Index.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Matricula/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Shared/Error.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/_ViewImports.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/_ViewStart.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gagag/Downloads/curricularizacao 1.0/Views/Shared/_Layout.cshtml]
+[D:/FEMA/LogicaDeProgramacao/CurricularizacaoADS2024/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ic83d9mhx0

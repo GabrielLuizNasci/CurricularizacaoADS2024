@@ -15,5 +15,15 @@ namespace CurricularizacaoADS2024.Models
         [StringLength(40)]
         [Display(Name = "Nome: ")]
         public string Nome { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "E-mail: ")]
+        public string Email { get; set; }
+
+        [Required]
+        [StringLength(11)]
+        [Display(Name = "Telefone: ")]
+        public string Telefone { get; set; }
     }
 }
