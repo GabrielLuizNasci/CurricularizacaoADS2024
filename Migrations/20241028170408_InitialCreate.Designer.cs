@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CurricularizacaoADS2024.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20241024191956_AddColumnsToMatriculas")]
-    partial class AddColumnsToMatriculas
+    [Migration("20241028170408_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -74,9 +74,6 @@ namespace CurricularizacaoADS2024.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AlunoId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Curso")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -84,22 +81,25 @@ namespace CurricularizacaoADS2024.Migrations
                     b.Property<DateTime>("DataMatricula")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("alunoID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("AlunoId");
+                    b.HasIndex("alunoID");
 
                     b.ToTable("Matriculas");
                 });
 
             modelBuilder.Entity("CurricularizacaoADS2024.Models.Matricula", b =>
                 {
-                    b.HasOne("CurricularizacaoADS2024.Models.Aluno", "Aluno")
+                    b.HasOne("CurricularizacaoADS2024.Models.Aluno", "aluno")
                         .WithMany()
-                        .HasForeignKey("AlunoId")
+                        .HasForeignKey("alunoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Aluno");
+                    b.Navigation("aluno");
                 });
 #pragma warning restore 612, 618
         }
