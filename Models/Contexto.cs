@@ -2,9 +2,8 @@
 
 namespace CurricularizacaoADS2024.Models
 {
-    public class Contexto: DbContext
+    public class Contexto(DbContextOptions<Contexto> options) : DbContext(options)
     {
-        public Contexto(DbContextOptions<Contexto> options): base(options) { }
 
         //public DbSet<Parceiro> Parceiros { get; set; }
         //public DbSet<Aluno> Professores { get; set; }
