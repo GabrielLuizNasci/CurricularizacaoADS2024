@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace CurricularizacaoADS2024.Models
 {
-    [Table("Admins")]
-    public class Admin
+    [Table("Professores")]
+    public class Professor
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -25,14 +25,5 @@ namespace CurricularizacaoADS2024.Models
         [StringLength(50)]
         [Display(Name = "E-mail: ")]
         public string Email { get; set; }
-
-        [Required]
-        public string PasswordHash { get; set; }
-
-        public string PasswordSalt { get; set; }
-
-        public int IsActive { get; set; }
-
-        public DateTime CreatedOn { get; set; } = DateTime.Now;
     }
 }

@@ -1064,3 +1064,4 @@ D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024\bin\Debug\net8.0\runtimes\wi
 D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\FEMA\LogicaDeProgramacao\CurricularizacaoADS2024\bin\Debug\net8.0\BCrypt.Net-Next.dll

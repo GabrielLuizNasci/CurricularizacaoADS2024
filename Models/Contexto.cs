@@ -14,7 +14,7 @@ namespace CurricularizacaoADS2024.Models
         public DbSet<Aluno> Alunos { get; set; }
         //public DbSet<Responsavel> Responsaveis { get; set; }
         //public DbSet<Visita> Visitas { get; set; }
-        //public DbSet<Admin> Admins { get; set; }
+        public DbSet<Admin> Admins { get; set; }
 
     }
 }
