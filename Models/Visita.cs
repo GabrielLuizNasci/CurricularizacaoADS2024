@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CurricularizacaoADS2024.Models
@@ -6,7 +7,7 @@ namespace CurricularizacaoADS2024.Models
     [Table("Visitas")]
     public class Visita
     {
-        public enum Status { Aprovada, Pendente, Desaprovada }
+        //public enum Status { Aprovada, Pendente, Desaprovada }
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -32,8 +33,24 @@ namespace CurricularizacaoADS2024.Models
         public string descricao { get; set; }
 
 
+        [Required]
         [Display(Name = "Status da Visita: ")]
-        public Status status { get; set; }
+        public int status { get; set; }
+
+        [NotMapped]
+        public string StatusFormatado
+        {
+            get
+            {
+                return status switch
+                {
+                    1 => "Aprovado",
+                    2 => "Pendente",
+                    3 => "Desaprovado",
+                    _ => "Não Especificado"
+                };
+            }
+        }
 
     }
 }
