@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CurricularizacaoADS2024.Models.Matricula>
+﻿@model IEnumerable<CurricularizacaoADS2024.Models.Turma>
 
 @{
     ViewData["Title"] = "Index";
@@ -14,13 +14,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Curso)
+                @Html.DisplayNameFor(model => model.descricao)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataMatricula)
+                @Html.DisplayNameFor(model => model.periodo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.aluno)
+                @Html.DisplayNameFor(model => model.atidade)
             </th>
             <th></th>
         </tr>
@@ -29,13 +29,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Curso)
+                @Html.DisplayFor(modelItem => item.descricao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DataMatricula)
+                @Html.DisplayFor(modelItem => item.periodo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.aluno.Endereco)
+                @Html.DisplayFor(modelItem => item.atidade.Nome)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

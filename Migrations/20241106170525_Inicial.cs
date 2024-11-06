@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CurricularizacaoADS2024.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -50,6 +50,33 @@ namespace CurricularizacaoADS2024.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Atividades",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Atividades", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Cursos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
+                    Descricao = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cursos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Responsaveis",
                 columns: table => new
                 {
@@ -70,22 +97,22 @@ namespace CurricularizacaoADS2024.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Matriculas",
+                name: "Turmas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Curso = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataMatricula = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    alunoID = table.Column<int>(type: "int", nullable: false)
+                    descricao = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    periodo = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    atividadeID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Matriculas", x => x.Id);
+                    table.PrimaryKey("PK_Turmas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Matriculas_Alunos_alunoID",
-                        column: x => x.alunoID,
-                        principalTable: "Alunos",
+                        name: "FK_Turmas_Atividades_atividadeID",
+                        column: x => x.atividadeID,
+                        principalTable: "Atividades",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -112,10 +139,60 @@ namespace CurricularizacaoADS2024.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Matriculas",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DataMatricula = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    cursoID = table.Column<int>(type: "int", nullable: false),
+                    alunoID = table.Column<int>(type: "int", nullable: false),
+                    RA = table.Column<int>(type: "int", nullable: false),
+                    turmaID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Matriculas", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Matriculas_Alunos_alunoID",
+                        column: x => x.alunoID,
+                        principalTable: "Alunos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Matriculas_Cursos_cursoID",
+                        column: x => x.cursoID,
+                        principalTable: "Cursos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Matriculas_Turmas_turmaID",
+                        column: x => x.turmaID,
+                        principalTable: "Turmas",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Matriculas_alunoID",
                 table: "Matriculas",
                 column: "alunoID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Matriculas_cursoID",
+                table: "Matriculas",
+                column: "cursoID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Matriculas_turmaID",
+                table: "Matriculas",
+                column: "turmaID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Turmas_atividadeID",
+                table: "Turmas",
+                column: "atividadeID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Visitas_responsavelID",
@@ -139,7 +216,16 @@ namespace CurricularizacaoADS2024.Migrations
                 name: "Alunos");
 
             migrationBuilder.DropTable(
+                name: "Cursos");
+
+            migrationBuilder.DropTable(
+                name: "Turmas");
+
+            migrationBuilder.DropTable(
                 name: "Responsaveis");
+
+            migrationBuilder.DropTable(
+                name: "Atividades");
         }
     }
 }

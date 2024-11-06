@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CurricularizacaoADS2024.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20241103033154_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241106170525_Inicial")]
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -107,6 +107,47 @@ namespace CurricularizacaoADS2024.Migrations
                     b.ToTable("Alunos");
                 });
 
+            modelBuilder.Entity("CurricularizacaoADS2024.Models.Atividade", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Atividades");
+                });
+
+            modelBuilder.Entity("CurricularizacaoADS2024.Models.Curso", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cursos");
+                });
+
             modelBuilder.Entity("CurricularizacaoADS2024.Models.Matricula", b =>
                 {
                     b.Property<int>("Id")
@@ -115,19 +156,28 @@ namespace CurricularizacaoADS2024.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Curso")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("DataMatricula")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("RA")
+                        .HasColumnType("int");
+
                     b.Property<int>("alunoID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("cursoID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("turmaID")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("alunoID");
+
+                    b.HasIndex("cursoID");
+
+                    b.HasIndex("turmaID");
 
                     b.ToTable("Matriculas");
                 });
@@ -180,6 +230,34 @@ namespace CurricularizacaoADS2024.Migrations
                     b.ToTable("Responsaveis");
                 });
 
+            modelBuilder.Entity("CurricularizacaoADS2024.Models.Turma", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("atividadeID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("periodo")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("atividadeID");
+
+                    b.ToTable("Turmas");
+                });
+
             modelBuilder.Entity("CurricularizacaoADS2024.Models.Visita", b =>
                 {
                     b.Property<int>("Id")
@@ -216,7 +294,34 @@ namespace CurricularizacaoADS2024.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("CurricularizacaoADS2024.Models.Curso", "curso")
+                        .WithMany()
+                        .HasForeignKey("cursoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CurricularizacaoADS2024.Models.Turma", "turma")
+                        .WithMany()
+                        .HasForeignKey("turmaID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("aluno");
+
+                    b.Navigation("curso");
+
+                    b.Navigation("turma");
+                });
+
+            modelBuilder.Entity("CurricularizacaoADS2024.Models.Turma", b =>
+                {
+                    b.HasOne("CurricularizacaoADS2024.Models.Atividade", "atidade")
+                        .WithMany()
+                        .HasForeignKey("atividadeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("atidade");
                 });
 
             modelBuilder.Entity("CurricularizacaoADS2024.Models.Visita", b =>

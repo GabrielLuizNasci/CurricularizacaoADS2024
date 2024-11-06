@@ -1,4 +1,4 @@
-﻿@model CurricularizacaoADS2024.Models.Matricula
+﻿@model CurricularizacaoADS2024.Models.Turma
 
 @{
     ViewData["Title"] = "Edit";
@@ -7,7 +7,7 @@
 
 <h1>Edit</h1>
 
-<h4>Matricula</h4>
+<h4>Turma</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -15,19 +15,19 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="Curso" class="control-label"></label>
-                <input asp-for="Curso" class="form-control" />
-                <span asp-validation-for="Curso" class="text-danger"></span>
+                <label asp-for="descricao" class="control-label"></label>
+                <input asp-for="descricao" class="form-control" />
+                <span asp-validation-for="descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataMatricula" class="control-label"></label>
-                <input asp-for="DataMatricula" class="form-control" />
-                <span asp-validation-for="DataMatricula" class="text-danger"></span>
+                <label asp-for="periodo" class="control-label"></label>
+                <input asp-for="periodo" class="form-control" />
+                <span asp-validation-for="periodo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="alunoID" class="control-label"></label>
-                <select asp-for="alunoID" class="form-control" asp-items="ViewBag.alunoID"></select>
-                <span asp-validation-for="alunoID" class="text-danger"></span>
+                <label asp-for="atividadeID" class="control-label"></label>
+                <select asp-for="atividadeID" class="form-control" asp-items="ViewBag.atividadeID"></select>
+                <span asp-validation-for="atividadeID" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

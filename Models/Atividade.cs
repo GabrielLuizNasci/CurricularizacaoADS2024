@@ -10,5 +10,10 @@ namespace CurricularizacaoADS2024.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Display(Name = "ID: ")]
         public int Id { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "Nome: ")]
+        public string Nome { get; set; }
     }
 }
