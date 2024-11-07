@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Casa-4\\CurricularizacaoADS2024.csproj": {}
+    "E:\\Usuario\\Downloads\\curricularizacao 5.0\\CurricularizacaoADS2024.csproj": {}
   },
   "projects": {
-    "C:\\Casa-4\\CurricularizacaoADS2024.csproj": {
+    "E:\\Usuario\\Downloads\\curricularizacao 5.0\\CurricularizacaoADS2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Casa-4\\CurricularizacaoADS2024.csproj",
+        "projectUniqueName": "E:\\Usuario\\Downloads\\curricularizacao 5.0\\CurricularizacaoADS2024.csproj",
         "projectName": "CurricularizacaoADS2024",
-        "projectPath": "C:\\Casa-4\\CurricularizacaoADS2024.csproj",
-        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\Casa-4\\obj\\",
+        "projectPath": "E:\\Usuario\\Downloads\\curricularizacao 5.0\\CurricularizacaoADS2024.csproj",
+        "packagesPath": "C:\\Users\\Windows10\\.nuget\\packages\\",
+        "outputPath": "E:\\Usuario\\Downloads\\curricularizacao 5.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

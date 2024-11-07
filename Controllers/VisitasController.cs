@@ -47,7 +47,7 @@ namespace CurricularizacaoADS2024.Controllers
         // GET: Visitas/Create
         public IActionResult Create()
         {
-            ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "cpf");
+            ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "nome");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace CurricularizacaoADS2024.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "cpf", visita.responsavelID);
+            ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "nome", visita.responsavelID);
             return View(visita);
         }
 
@@ -81,7 +81,7 @@ namespace CurricularizacaoADS2024.Controllers
             {
                 return NotFound();
             }
-            ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "cpf", visita.responsavelID);
+            ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "nome", visita.responsavelID);
             return View(visita);
         }
 
