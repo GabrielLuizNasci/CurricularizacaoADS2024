@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<h1>Editar</h1>
 
 <h4>Matricula</h4>
 <hr />
@@ -26,12 +26,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="alunoID" class="control-label"></label>
-                <select asp-for="alunoID" class="form-control" asp-items="ViewBag.alunoID"></select>
+                <select asp-for="alunoID" class="form-control" type="text" asp-items="ViewBag.alunoID"></select>
                 <span asp-validation-for="alunoID" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="RA" class="control-label"></label>
-                <input asp-for="RA" class="form-control" />
+                <input asp-for="RA" class="form-control" type="text" />
                 <span asp-validation-for="RA" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -39,15 +39,12 @@
                 <select asp-for="turmaID" class="form-control" asp-items="ViewBag.turmaID"></select>
                 <span asp-validation-for="turmaID" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group d-flex">
+                <input type="submit" value="Salvar" class="btn btn-success mr-2" />
+                <a asp-action="Index" class="btn btn-danger">Voltar</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

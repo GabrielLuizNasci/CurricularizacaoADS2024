@@ -1,16 +1,17 @@
 ﻿@model IEnumerable<CurricularizacaoADS2024.Models.Curso>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Cursos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Adicionar Cursos</a>
 </p>
-<table class="table">
+<table class="table table-success table-striped">
+
     <thead>
         <tr>
             <th>
@@ -31,11 +32,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar </a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Deletar</a>
+                </td>
         </tr>
 }
     </tbody>

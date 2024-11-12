@@ -1,16 +1,16 @@
 ﻿@model IEnumerable<CurricularizacaoADS2024.Models.Matricula>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Matriculas";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Matriculas</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Nova Matricula</a>
 </p>
-<table class="table">
+<table class="table table-info table-striped">
     <thead>
         <tr>
             <th>
@@ -41,7 +41,7 @@
                 @Html.DisplayFor(modelItem => item.curso.Descricao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.aluno.Endereco)
+                @Html.DisplayFor(modelItem => item.aluno.Nome)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.RA)
@@ -50,9 +50,9 @@
                 @Html.DisplayFor(modelItem => item.turma.descricao)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"class="btn btn-danger">Deletar</a>
             </td>
         </tr>
 }
