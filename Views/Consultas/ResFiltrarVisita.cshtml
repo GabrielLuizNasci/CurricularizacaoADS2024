@@ -1,0 +1,50 @@
+﻿@model IEnumerable<CurricularizacaoADS2024.Models.Visita>
+
+@{
+    ViewData["Title"] = "ResFiltrarVisita";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Filtro de Visitas</h1>
+
+<p>
+    <a asp-action="FiltrarVisita">Filtrar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.responsavel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datavisita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.responsavel.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.datavisita)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.descricao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StatusFormatado)
+                </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
