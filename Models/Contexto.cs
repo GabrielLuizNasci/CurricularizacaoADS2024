@@ -10,8 +10,7 @@ namespace CurricularizacaoADS2024.Models
 
         //public DbSet<Parceiro> Parceiros { get; set; }
         //public DbSet<Aluno> Professores { get; set; }
-        //public DbSet<Atividade> Atividades { get; set; }
-        //public DbSet<Turma> Turmas { get; set; }
+
         public DbSet<Matricula> Matriculas { get; set; }
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Responsavel> Responsaveis { get; set; }

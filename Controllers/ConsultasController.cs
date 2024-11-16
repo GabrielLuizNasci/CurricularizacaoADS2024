@@ -33,5 +33,51 @@ namespace CurricularizacaoADS2024.Controllers
 
             return View(listaVisitas);
         }
+
+        public IActionResult FiltrarMatricula ()
+        { 
+            return View(); 
+        }
+
+
+        public IActionResult ResFiltraMatricula(int? id, string nome)
+        {
+            List<Matricula> listaMatricula;
+
+            if (id != null)
+            {
+                listaMatricula = contexto.Matriculas
+                    .Include(a => a.aluno)
+                    .Include(a => a.turma)
+                    .Include(a => a.curso)
+                    .Where(a => a.Id == id)
+                    .ToList();
+            }
+
+            else
+                if(!nome.IsNullOrEmpty()) 
+            {
+                listaMatricula = contexto.Matriculas
+                    .Include(a => a.aluno)
+                    .Include(a => a.turma)
+                    .Include(a => a.curso)
+                    .Where(n => n.aluno.Nome.Contains(nome)). OrderBy(o=>o.aluno.Nome)
+                    .ToList();
+            }
+
+            else
+            {
+                listaMatricula = contexto.Matriculas
+                    .Include(a => a.aluno)
+                    .Include(a => a.turma)
+                    .Include(a => a.curso)
+                    .ToList();
+            }
+
+            return View(listaMatricula);
+        }
+
+
+
     }
 }

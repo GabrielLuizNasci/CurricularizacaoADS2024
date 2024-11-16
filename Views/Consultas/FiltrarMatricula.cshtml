@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar Matrícula</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #343a40;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .form-label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .form-control {
+            border-radius: 4px;
+            border: 1px solid #ced4da;
+            padding: 10px;
+            width: 100%;
+            transition: border-color 0.3s;
+            margin-bottom: 15px;
+        }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+        }
+
+        .btn {
+            border-radius: 4px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: 1px solid #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+        .d-flex {
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Filtrar Matrícula</h1>
+        <hr />
+        <div class="card">
+            <div class="card-body">
+                <form asp-action="ResFiltraMatricula">
+                    <div class="form-group">
+                        <label class="form-label">ID da Matrícula</label>
+                        <input type="text" name="id" class="form-control" placeholder="Digite o ID da matrícula" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Nome do Aluno</label>
+                        <input type="text" name="nome" class="form-control" placeholder="Digite o nome do aluno" />
+                    </div>
+                    <div class="d-flex">
+                        <input type="submit" value="Filtrar" class="btn" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>
