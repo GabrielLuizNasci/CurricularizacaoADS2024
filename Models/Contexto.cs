@@ -8,9 +8,7 @@ namespace CurricularizacaoADS2024.Models
         public Contexto(DbContextOptions<Contexto> options) : base(options) { }
 
 
-        //public DbSet<Parceiro> Parceiros { get; set; }
-        //public DbSet<Aluno> Professores { get; set; }
-
+        public DbSet<Parceiro> Parceiros { get; set; }
         public DbSet<Matricula> Matriculas { get; set; }
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Responsavel> Responsaveis { get; set; }
@@ -19,6 +17,8 @@ namespace CurricularizacaoADS2024.Models
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Turma> Turma { get; set; }
         public DbSet<Atividade> Atividade { get; set; }
+        public DbSet<Professor> Professor { get; set; }
+
 
 
 

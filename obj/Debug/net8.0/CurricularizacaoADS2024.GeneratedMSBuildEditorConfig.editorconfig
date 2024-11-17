@@ -17,203 +17,245 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CurricularizacaoADS2024
 build_property.RootNamespace = CurricularizacaoADS2024
-build_property.ProjectDir = E:\Usuario\Downloads\curricularizacao 7.0\
+build_property.ProjectDir = C:\Users\usuario\CurricularizacaoADS2024\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Usuario\Downloads\curricularizacao 7.0
+build_property.MSBuildProjectDirectory = C:\Users\usuario\CurricularizacaoADS2024
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Admin/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Alunos/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Alunos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Alunos/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Alunos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Alunos/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Alunos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Alunos/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Alunos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Alunos/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Alunos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Atividades/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Atividades/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Atividades/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Atividades/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Atividades/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Atividades/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Atividades/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Atividades/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Atividades/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Atividades/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Consultas/FiltrarMatricula.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Consultas/FiltrarMatricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEZpbHRyYXJNYXRyaWN1bGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Consultas/FiltrarVisita.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Consultas/FiltrarVisita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEZpbHRyYXJWaXNpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Consultas/ResFiltraMatricula.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Consultas/ResFiltraMatricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXFJlc0ZpbHRyYU1hdHJpY3VsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Consultas/ResFiltrarVisita.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Consultas/ResFiltrarVisita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXFJlc0ZpbHRyYXJWaXNpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Cursos/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Cursos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Cursos/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Cursos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Cursos/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Cursos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Cursos/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Cursos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Cursos/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Cursos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Dados/Visitas.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Dados/Visitas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NcVmlzaXRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Home/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Home/Privacy.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Matriculas/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Matriculas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Matriculas/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Matriculas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Matriculas/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Matriculas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Matriculas/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Matriculas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Matriculas/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Matriculas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Responsavel/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Parceiros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Parceiros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Parceiros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Parceiros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Parceiros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Professores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Professores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Professores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Professores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Professores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Responsavel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Responsavel/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Responsavel/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Responsavel/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Responsavel/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Responsavel/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Responsavel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Responsavel/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Responsavel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Shared/Error.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Turmas/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Turmas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Turmas/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Turmas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Turmas/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Turmas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Turmas/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Turmas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Turmas/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Turmas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Visitas/Create.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Visitas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Visitas/Delete.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Visitas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Visitas/Details.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Visitas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Visitas/Edit.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Visitas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Visitas/Index.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Visitas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/_ViewImports.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/_ViewStart.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/curricularizacao 7.0/Views/Shared/_Layout.cshtml]
+[C:/Users/usuario/CurricularizacaoADS2024/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ic83d9mhx0
