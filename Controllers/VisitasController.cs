@@ -52,8 +52,6 @@ namespace CurricularizacaoADS2024.Controllers
         }
 
         // POST: Visitas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,responsavelID,datavisita,descricao,status")] Visita visita)
@@ -64,6 +62,8 @@ namespace CurricularizacaoADS2024.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            // Se falhar na validação, recarregue os responsáveis para o dropdown
             ViewData["responsavelID"] = new SelectList(_context.Responsaveis, "Id", "nome", visita.responsavelID);
             return View(visita);
         }

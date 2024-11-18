@@ -43,11 +43,18 @@
                 <input asp-for="Telefone" class="form-control" type="text"/>
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Sexo" class="control-label"></label>
-                <input asp-for="Sexo" class="form-control" />
+                <label asp-for="Sexo"></label>
+                @Html.DropDownList("Sexo", new SelectList(new List<SelectListItem>
+                {
+                new SelectListItem { Value = "1", Text = "Masculino" },
+                new SelectListItem { Value = "2", Text = "Feminino" },
+                new SelectListItem { Value = "3", Text = "Outro" }
+                }, "Value", "Text"), "Selecione o Sexo", new { @class = "form-control" })
                 <span asp-validation-for="Sexo" class="text-danger"></span>
             </div>
+
             <div class="form-group d-flex">
                 <input type="submit" value="Salvar" class="btn btn-success mr-2" />
                 <a asp-action="Index" class="btn btn-danger">Voltar</a>
