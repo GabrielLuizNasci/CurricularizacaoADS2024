@@ -17,243 +17,243 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CurricularizacaoADS2024
 build_property.RootNamespace = CurricularizacaoADS2024
-build_property.ProjectDir = E:\Usuario\Downloads\Nova pasta\
+build_property.ProjectDir = C:\Casa-6\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Usuario\Downloads\Nova pasta
+build_property.MSBuildProjectDirectory = C:\Casa-6
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Admin/Index.cshtml]
+[C:/Casa-6/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Alunos/Create.cshtml]
+[C:/Casa-6/Views/Alunos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Alunos/Delete.cshtml]
+[C:/Casa-6/Views/Alunos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Alunos/Details.cshtml]
+[C:/Casa-6/Views/Alunos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Alunos/Edit.cshtml]
+[C:/Casa-6/Views/Alunos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Alunos/Index.cshtml]
+[C:/Casa-6/Views/Alunos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Atividades/Create.cshtml]
+[C:/Casa-6/Views/Atividades/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Atividades/Delete.cshtml]
+[C:/Casa-6/Views/Atividades/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Atividades/Details.cshtml]
+[C:/Casa-6/Views/Atividades/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Atividades/Edit.cshtml]
+[C:/Casa-6/Views/Atividades/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Atividades/Index.cshtml]
+[C:/Casa-6/Views/Atividades/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Consultas/FiltrarMatricula.cshtml]
+[C:/Casa-6/Views/Consultas/FiltrarMatricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEZpbHRyYXJNYXRyaWN1bGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Consultas/FiltrarVisita.cshtml]
+[C:/Casa-6/Views/Consultas/FiltrarVisita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEZpbHRyYXJWaXNpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Consultas/ResFiltraMatricula.cshtml]
+[C:/Casa-6/Views/Consultas/ResFiltraMatricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXFJlc0ZpbHRyYU1hdHJpY3VsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Consultas/ResFiltrarVisita.cshtml]
+[C:/Casa-6/Views/Consultas/ResFiltrarVisita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXFJlc0ZpbHRyYXJWaXNpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Cursos/Create.cshtml]
+[C:/Casa-6/Views/Cursos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Cursos/Delete.cshtml]
+[C:/Casa-6/Views/Cursos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Cursos/Details.cshtml]
+[C:/Casa-6/Views/Cursos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Cursos/Edit.cshtml]
+[C:/Casa-6/Views/Cursos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Cursos/Index.cshtml]
+[C:/Casa-6/Views/Cursos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Dados/Visitas.cshtml]
+[C:/Casa-6/Views/Dados/Visitas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NcVmlzaXRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Home/Index.cshtml]
+[C:/Casa-6/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Home/Privacy.cshtml]
+[C:/Casa-6/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Matriculas/Create.cshtml]
+[C:/Casa-6/Views/Matriculas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Matriculas/Delete.cshtml]
+[C:/Casa-6/Views/Matriculas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Matriculas/Details.cshtml]
+[C:/Casa-6/Views/Matriculas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Matriculas/Edit.cshtml]
+[C:/Casa-6/Views/Matriculas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Matriculas/Index.cshtml]
+[C:/Casa-6/Views/Matriculas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Parceiros/Create.cshtml]
+[C:/Casa-6/Views/Parceiros/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Parceiros/Delete.cshtml]
+[C:/Casa-6/Views/Parceiros/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Parceiros/Details.cshtml]
+[C:/Casa-6/Views/Parceiros/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Parceiros/Edit.cshtml]
+[C:/Casa-6/Views/Parceiros/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Parceiros/Index.cshtml]
+[C:/Casa-6/Views/Parceiros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyY2Vpcm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Professor/Create.cshtml]
+[C:/Casa-6/Views/Professor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Professor/Delete.cshtml]
+[C:/Casa-6/Views/Professor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Professor/Details.cshtml]
+[C:/Casa-6/Views/Professor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Professor/Edit.cshtml]
+[C:/Casa-6/Views/Professor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Professor/Index.cshtml]
+[C:/Casa-6/Views/Professor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Responsavel/Create.cshtml]
+[C:/Casa-6/Views/Responsavel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Responsavel/Delete.cshtml]
+[C:/Casa-6/Views/Responsavel/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Responsavel/Details.cshtml]
+[C:/Casa-6/Views/Responsavel/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Responsavel/Edit.cshtml]
+[C:/Casa-6/Views/Responsavel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Responsavel/Index.cshtml]
+[C:/Casa-6/Views/Responsavel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2F2ZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Shared/Error.cshtml]
+[C:/Casa-6/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Casa-6/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Turmas/Create.cshtml]
+[C:/Casa-6/Views/Turmas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Turmas/Delete.cshtml]
+[C:/Casa-6/Views/Turmas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Turmas/Details.cshtml]
+[C:/Casa-6/Views/Turmas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Turmas/Edit.cshtml]
+[C:/Casa-6/Views/Turmas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Turmas/Index.cshtml]
+[C:/Casa-6/Views/Turmas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Visitas/Create.cshtml]
+[C:/Casa-6/Views/Visitas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Visitas/Delete.cshtml]
+[C:/Casa-6/Views/Visitas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Visitas/Details.cshtml]
+[C:/Casa-6/Views/Visitas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Visitas/Edit.cshtml]
+[C:/Casa-6/Views/Visitas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Visitas/Index.cshtml]
+[C:/Casa-6/Views/Visitas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/_ViewImports.cshtml]
+[C:/Casa-6/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/_ViewStart.cshtml]
+[C:/Casa-6/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Usuario/Downloads/Nova pasta/Views/Shared/_Layout.cshtml]
+[C:/Casa-6/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ic83d9mhx0
