@@ -1,43 +1,60 @@
 ﻿@model CurricularizacaoADS2024.Models.Turma
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Adicionar Turma";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1 class="text-center my-4">Adicionar Turma</h1>
 
-<h4>Turma</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="card mx-auto shadow-sm" style="max-width: 800px;">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0"><i class="fas fa-users"></i> Cadastro de Turma</h4>
+    </div>
+    <div class="card-body">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="descricao" class="control-label"></label>
-                <input asp-for="descricao" class="form-control" />
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+            <div class="mb-3">
+                <label asp-for="descricao" class="form-label">
+                    <i class="fas fa-file-alt"></i> Descrição
+                </label>
+                <input asp-for="descricao" class="form-control" placeholder="Digite a descrição da turma" />
                 <span asp-validation-for="descricao" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="periodo" class="control-label"></label>
-                <input asp-for="periodo" class="form-control" />
+
+            <div class="mb-3">
+                <label asp-for="periodo" class="form-label">
+                    <i class="fas fa-clock"></i> Período
+                </label>
+                <input asp-for="periodo" class="form-control" placeholder="Ex.: Matutino, Vespertino, Noturno" />
                 <span asp-validation-for="periodo" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="atividadeID" class="control-label"></label>
-                <select asp-for="atividadeID" class ="form-control" asp-items="ViewBag.atividadeID"></select>
+
+            <div class="mb-3">
+                <label asp-for="atividadeID" class="form-label">
+                    <i class="fas fa-tasks"></i> Atividade
+                </label>
+                <select asp-for="atividadeID" class="form-control" asp-items="ViewBag.atividadeID">
+                    <option value="">Selecione uma atividade</option>
+                </select>
+                <span asp-validation-for="atividadeID" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-save"></i> Salvar
+                </button>
+                <a asp-action="Index" class="btn btn-danger">
+                    <i class="fas fa-arrow-left"></i> Voltar
+                </a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

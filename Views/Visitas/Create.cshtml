@@ -1,36 +1,54 @@
 ﻿@model CurricularizacaoADS2024.Models.Visita
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Adicionar Visita";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1 class="text-center my-4">Adicionar Visita</h1>
 
-<h4>Visita</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="card mx-auto shadow-sm" style="max-width: 800px;">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0"><i class="fas fa-calendar-alt"></i> Cadastro de Visita</h4>
+    </div>
+    <div class="card-body">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="responsavelID" class="control-label"></label>
-                <select asp-for="responsavelID" class ="form-control" asp-items="ViewBag.responsavelID"></select>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+            <!-- Responsável -->
+            <div class="mb-3">
+                <label asp-for="responsavelID" class="form-label">
+                    <i class="fas fa-user-tie"></i> Responsável
+                </label>
+                <select asp-for="responsavelID" class="form-control" asp-items="ViewBag.responsavelID">
+                    <option value="">Selecione um responsável</option>
+                </select>
+                <span asp-validation-for="responsavelID" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="datavisita" class="control-label"></label>
-                <input asp-for="datavisita" class="form-control" />
+
+            <!-- Data da Visita -->
+            <div class="mb-3">
+                <label asp-for="datavisita" class="form-label">
+                    <i class="fas fa-calendar-day"></i> Data da Visita
+                </label>
+                <input asp-for="datavisita" class="form-control" type="date" />
                 <span asp-validation-for="datavisita" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="descricao" class="control-label"></label>
-                <input asp-for="descricao" class="form-control" />
+
+            <!-- Descrição -->
+            <div class="mb-3">
+                <label asp-for="descricao" class="form-label">
+                    <i class="fas fa-file-alt"></i> Descrição
+                </label>
+                <textarea asp-for="descricao" class="form-control" rows="3" placeholder="Descreva os detalhes da visita"></textarea>
                 <span asp-validation-for="descricao" class="text-danger"></span>
             </div>
 
-            <!-- Campo Status -->
-            <div class="form-group">
-                <label asp-for="status" class="control-label"></label>
+            <!-- Status -->
+            <div class="mb-3">
+                <label asp-for="status" class="form-label">
+                    <i class="fas fa-check-circle"></i> Status
+                </label>
                 <select asp-for="status" class="form-control">
                     <option value="1">Aprovado</option>
                     <option value="2">Pendente</option>
@@ -39,18 +57,21 @@
                 <span asp-validation-for="status" class="text-danger"></span>
             </div>
 
-            <!-- Botão Submit -->
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <!-- Botões -->
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-save"></i> Salvar
+                </button>
+                <a asp-action="Index" class="btn btn-danger">
+                    <i class="fas fa-arrow-left"></i> Voltar
+                </a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
