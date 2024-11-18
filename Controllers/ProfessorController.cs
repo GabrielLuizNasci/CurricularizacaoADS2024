@@ -9,22 +9,23 @@ using CurricularizacaoADS2024.Models;
 
 namespace CurricularizacaoADS2024.Controllers
 {
-    public class ProfessoresController : Controller
+    public class ProfessorController : Controller
     {
         private readonly Contexto _context;
 
-        public ProfessoresController(Contexto context)
+        public ProfessorController(Contexto context)
         {
             _context = context;
         }
 
-        // GET: Professores
+        // GET: Professor
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Professor.ToListAsync());
+            var contexto = _context.Professor.Include(p => p.parceiro);
+            return View(await contexto.ToListAsync());
         }
 
-        // GET: Professores/Details/5
+        // GET: Professor/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,6 +34,7 @@ namespace CurricularizacaoADS2024.Controllers
             }
 
             var professor = await _context.Professor
+                .Include(p => p.parceiro)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (professor == null)
             {
@@ -42,18 +44,19 @@ namespace CurricularizacaoADS2024.Controllers
             return View(professor);
         }
 
-        // GET: Professores/Create
+        // GET: Professor/Create
         public IActionResult Create()
         {
+            ViewData["parceiroID"] = new SelectList(_context.Parceiros, "Id", "Descricao");
             return View();
         }
 
-        // POST: Professores/Create
+        // POST: Professor/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Telefone,Email")] Professor professor)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Telefone,Email,parceiroID")] Professor professor)
         {
             if (ModelState.IsValid)
             {
@@ -61,10 +64,11 @@ namespace CurricularizacaoADS2024.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["parceiroID"] = new SelectList(_context.Parceiros, "Id", "Descricao", professor.parceiroID);
             return View(professor);
         }
 
-        // GET: Professores/Edit/5
+        // GET: Professor/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -77,15 +81,16 @@ namespace CurricularizacaoADS2024.Controllers
             {
                 return NotFound();
             }
+            ViewData["parceiroID"] = new SelectList(_context.Parceiros, "Id", "Descricao", professor.parceiroID);
             return View(professor);
         }
 
-        // POST: Professores/Edit/5
+        // POST: Professor/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Telefone,Email")] Professor professor)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Telefone,Email,parceiroID")] Professor professor)
         {
             if (id != professor.Id)
             {
@@ -112,10 +117,11 @@ namespace CurricularizacaoADS2024.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["parceiroID"] = new SelectList(_context.Parceiros, "Id", "Descricao", professor.parceiroID);
             return View(professor);
         }
 
-        // GET: Professores/Delete/5
+        // GET: Professor/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,6 +130,7 @@ namespace CurricularizacaoADS2024.Controllers
             }
 
             var professor = await _context.Professor
+                .Include(p => p.parceiro)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (professor == null)
             {
@@ -133,7 +140,7 @@ namespace CurricularizacaoADS2024.Controllers
             return View(professor);
         }
 
-        // POST: Professores/Delete/5
+        // POST: Professor/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

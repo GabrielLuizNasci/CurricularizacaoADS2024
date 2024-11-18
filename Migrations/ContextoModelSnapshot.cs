@@ -225,7 +225,12 @@ namespace CurricularizacaoADS2024.Migrations
                         .HasMaxLength(11)
                         .HasColumnType("nvarchar(11)");
 
+                    b.Property<int>("parceiroID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("parceiroID");
 
                     b.ToTable("Professores");
                 });
@@ -359,6 +364,17 @@ namespace CurricularizacaoADS2024.Migrations
                     b.Navigation("curso");
 
                     b.Navigation("turma");
+                });
+
+            modelBuilder.Entity("CurricularizacaoADS2024.Models.Professor", b =>
+                {
+                    b.HasOne("CurricularizacaoADS2024.Models.Parceiro", "parceiro")
+                        .WithMany()
+                        .HasForeignKey("parceiroID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("parceiro");
                 });
 
             modelBuilder.Entity("CurricularizacaoADS2024.Models.Turma", b =>

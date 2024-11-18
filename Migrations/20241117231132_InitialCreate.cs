@@ -91,21 +91,6 @@ namespace CurricularizacaoADS2024.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Professores",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    Telefone = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Professores", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Responsaveis",
                 columns: table => new
                 {
@@ -142,6 +127,28 @@ namespace CurricularizacaoADS2024.Migrations
                         name: "FK_Turmas_Atividades_atividadeID",
                         column: x => x.atividadeID,
                         principalTable: "Atividades",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Professores",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
+                    Telefone = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    parceiroID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Professores", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Professores_Parceiros_parceiroID",
+                        column: x => x.parceiroID,
+                        principalTable: "Parceiros",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -219,6 +226,11 @@ namespace CurricularizacaoADS2024.Migrations
                 column: "turmaID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Professores_parceiroID",
+                table: "Professores",
+                column: "parceiroID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Turmas_atividadeID",
                 table: "Turmas",
                 column: "atividadeID");
@@ -239,9 +251,6 @@ namespace CurricularizacaoADS2024.Migrations
                 name: "Matriculas");
 
             migrationBuilder.DropTable(
-                name: "Parceiros");
-
-            migrationBuilder.DropTable(
                 name: "Professores");
 
             migrationBuilder.DropTable(
@@ -255,6 +264,9 @@ namespace CurricularizacaoADS2024.Migrations
 
             migrationBuilder.DropTable(
                 name: "Turmas");
+
+            migrationBuilder.DropTable(
+                name: "Parceiros");
 
             migrationBuilder.DropTable(
                 name: "Responsaveis");

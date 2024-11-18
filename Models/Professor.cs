@@ -25,5 +25,14 @@ namespace CurricularizacaoADS2024.Models
         [StringLength(50)]
         [Display(Name = "E-mail: ")]
         public string Email { get; set; }
+
+
+
+        [Display(Name = "Parceiro: ")]
+        public Parceiro parceiro { get; set; }
+
+
+        [Display(Name = "Parceiro: ")]
+        public int parceiroID { get; set; }
     }
 }
