@@ -7826,11 +7826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Usuario\\Downloads\\curricula\\CurricularizacaoADS2024.csproj",
+      "projectUniqueName": "E:\\Usuario\\Downloads\\Nova pasta\\CurricularizacaoADS2024.csproj",
       "projectName": "CurricularizacaoADS2024",
-      "projectPath": "E:\\Usuario\\Downloads\\curricula\\CurricularizacaoADS2024.csproj",
+      "projectPath": "E:\\Usuario\\Downloads\\Nova pasta\\CurricularizacaoADS2024.csproj",
       "packagesPath": "C:\\Users\\Windows10\\.nuget\\packages\\",
-      "outputPath": "E:\\Usuario\\Downloads\\curricula\\obj\\",
+      "outputPath": "E:\\Usuario\\Downloads\\Nova pasta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

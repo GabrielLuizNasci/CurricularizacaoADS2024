@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CurricularizacaoADS2024")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ebbe9eea2513411f5912942b5d0555b720916d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e828b7e87b0c0843949288cd0fe99c8040c4c3ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CurricularizacaoADS2024")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CurricularizacaoADS2024")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

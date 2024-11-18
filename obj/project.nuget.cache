@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZZ8wWv4kCE=",
+  "dgSpecHash": "HCSb7RD3/kI=",
   "success": true,
-  "projectFilePath": "E:\\Usuario\\Downloads\\curricula\\CurricularizacaoADS2024.csproj",
+  "projectFilePath": "E:\\Usuario\\Downloads\\Nova pasta\\CurricularizacaoADS2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows10\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Windows10\\.nuget\\packages\\azure.identity\\1.13.1\\azure.identity.1.13.1.nupkg.sha512",
