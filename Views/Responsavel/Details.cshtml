@@ -1,67 +1,57 @@
 ﻿@model CurricularizacaoADS2024.Models.Responsavel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
-
-<div>
-    <h4>Responsavel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.aniversario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.aniversario)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.cpf)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.cpf)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.rg)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.rg)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.tel)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.tel)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.profissao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.profissao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.renda)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.renda)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.local)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.local)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Detalhes do Responsável</h1>
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Informações do Responsável</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">Nome:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.nome)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">Aniversário:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.aniversario)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">CPF:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.cpf)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">RG:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.rg)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">Telefone:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.tel)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">Profissão:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.profissao)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">Renda:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.renda)</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4 font-weight-bold">Local:</div>
+                <div class="col-sm-8">@Html.DisplayFor(model => model.local)</div>
+            </div>
+        </div>
+        <div class="card-footer d-flex justify-content-end">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-success mr-2">
+                <i class="fas fa-edit"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-danger">
+                <i class="fas fa-arrow-left"></i> Voltar
+            </a>
+        </div>
+    </div>
 </div>
